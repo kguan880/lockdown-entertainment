@@ -1,4 +1,4 @@
-* Hi guys, this is gonna be our Git repo for the first group project
+Hi guys, this is gonna be our Git repo for the first group project
 
 'LOCKDOWN ENTERTAINMENT'
 BY: Vincent, Alice, Josh and Kevin
