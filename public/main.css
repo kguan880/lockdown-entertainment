@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(black,gray);
+}
+
+/* HOME PAGE */
+.title{
+  width: 100vw;
+  text-align: center;
+}
+
+.title h1{
+  margin: 0;
+  font-size: 8rem;
+  color: brown;
+  text-shadow: 6px 6px 6px darkred;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.introduce td{
+  padding: 0;
+}
+
+.introduce td h2{
+  color: whitesmoke;
+  font-size: 3rem;
+  transition: 2s ease-out;
+}
+
+.link{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  border: outset 2px gray;
+  background-color: gainsboro;
+  border-radius: 15px;
+}
+
+.link a{
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+
+.link a:hover{
+  color: whitesmoke;
+}
+
+.describe{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  text-align: justify;
+  text-align-last: left;
+  padding: 25px;
+  width: 50%;
+  color: black;
+  background: linear-gradient(gray, gainsboro);
+  font-size: 1.5rem;
+  border: outset gray 1px;
+  border-radius: 15px;
+}
+
+.container img{
+  width: 20vw;
+  border: 1px darkred inset;
+  border-radius: 50%;
+}
+
+/* CONTAINER PAGE */
+.collection{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.thumbnail img{
+  border: inset 2px;
+  border-radius: 15px;
+  width: 70%;
+}
+
+.sliding{
+  background: linear-gradient(to left, black, darkred, black);
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  padding: 1%;
+  border: solid white 1px;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+.Comedy, .Music, .Misc{
+  background: linear-gradient(brown, black);
+  border-radius: 25px;
+  margin: 2%;
+  padding: 1%;
+  border: outset 1px gray;
+  width: 50%;
+}
+
+.Comedy tr td:nth-of-type(1), .Music tr td:nth-of-type(1), .Misc tr td:nth-of-type(1){
+  padding: 10px;
+  font-size: 1.5rem;
+  color: gold;
+} 
+
+.Comedy tr td:nth-of-type(2), .Music tr td:nth-of-type(2), .Misc tr td:nth-of-type(2){
+  padding: 10px;
+  color: whitesmoke;
+} 
+
