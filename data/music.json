@@ -1,0 +1,31 @@
+{
+  "music": [
+    {
+      "name": "Annhilation of the Ego",
+      "artist": "Optimus Gryme",
+      "genre": "Music",
+      "comment": " ",
+      "thumbnail": "http://img.youtube.com/embed/zKwOM1h5NSE/0.jpg",
+      "link": "https://www.youtube.com/embed/zKwOM1h5NSE",
+      "id": 4
+    },
+    {
+      "name": "Kereru",
+      "artist": "Dr. Reknaw",
+      "genre": "Music",
+      "comment": " ",
+      "thumbnail": "http://img.youtube.com/vi/gNKFknlCICI/0.jpg",
+      "link": "https://www.youtube.com/embed/gNKFknlCICI",
+      "id": 5
+    },
+    {
+      "name": "Drop The Mic w/ Cara Delevingne & Dave Franco",
+      "artist": "James Corden",
+      "genre": "Music",
+      "comment": " ",
+      "thumbnail": "http://img.youtube.com/vi/_Uh-f-eEudc/0.jpg",
+      "link": "https://www.youtube.com/embed/_Uh-f-eEudc",
+      "id": 6
+    }
+  ]
+}

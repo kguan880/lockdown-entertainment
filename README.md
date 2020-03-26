@@ -8,5 +8,8 @@
 * npm init
 * npm install express --save
 * npm install express-handlebars --save
+* 3 read files for 3 seperate catagories / pages
+
+
 
 * Just clone and push it here with your work. Thanks everyone.

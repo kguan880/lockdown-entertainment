@@ -1,12 +1,12 @@
 {
-  "comedy": [
+  "video": [
     {
       "name": "Pawn Shop",
       "artist": "Key & Peele",
       "genre": "Comedy",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
+      "linkId": "WqBZVlgORbY",
       "id": 1
     },
     {
@@ -15,7 +15,7 @@
       "genre": "Comedy",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/whLIYxSiboA/0.jpg",
-      "link": "https://www.youtube.com/embed/whLIYxSiboA",
+      "linkId": "whLIYxSiboA",
       "id": 2
     },
     {
@@ -24,66 +24,62 @@
       "genre": "Comedy",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/1c-3FQap7iw/0.jpg",
-      "link": "https://www.youtube.com/embed/1c-3FQap7iw",
+      "linkId": "1c-3FQap7iw",
       "id": 3
-    }
-  ],
-  "music": [
+    },
     {
-      "name": "Pawn Shop",
-      "artist": "Key & Peele",
+      "name": "Annhilation of the Ego",
+      "artist": "Optimus Gryme",
       "genre": "Music",
       "comment": " ",
-      "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
-      "id": 1
+      "thumbnail": "http://img.youtube.com/vi/zKwOM1h5NSE/0.jpg",
+      "linkId": "zKwOM1h5NSE",
+      "id": 4
     },
     {
-      "name": "Pawn Shop",
-      "artist": "Key & Peele",
+      "name": "Kereru",
+      "artist": "Dr. Reknaw",
       "genre": "Music",
       "comment": " ",
-      "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
-      "id": 2
+      "thumbnail": "http://img.youtube.com/vi/gNKFknlCICI/0.jpg",
+      "linkId": "gNKFknlCICI",
+      "id": 5
     },
     {
-      "name": "Pawn Shop",
-      "artist": "Key & Peele",
+      "name": "Drop The Mic w/ Cara Delevingne & Dave Franco",
+      "artist": "James Corden",
       "genre": "Music",
       "comment": " ",
-      "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
-      "id": 3
-    }
-  ],
-  "misc": [
-    {
-      "name": "Pawn Shop",
-      "artist": "Key & Peele",
-      "genre": "Misc",
-      "comment": " ",
-      "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
-      "id": 1
+      "thumbnail": "http://img.youtube.com/vi/_Uh-f-eEudc/0.jpg",
+      "linkId": "_Uh-f-eEudc",
+      "id": 6
     },
     {
-      "name": "Pawn Shop",
-      "artist": "Key & Peele",
+      "name": "Walrus with a beautiful voice",
+      "artist": "Daily Dose of Internet",
       "genre": "Misc",
       "comment": " ",
-      "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
-      "id": 2
+      "thumbnail": "http://img.youtube.com/vi/PrEdXoDxfE0/0.jpg",
+      "linkId": "PrEdXoDxfE0",
+      "id": 7
     },
     {
-      "name": "Pawn Shop",
-      "artist": "Key & Peele",
+      "name": "42 Holy Grail Hacks That Will Save You A Fortune",
+      "artist": "5-Minute ",
       "genre": "Misc",
       "comment": " ",
-      "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
-      "id": 3
+      "thumbnail": "http://img.youtube.com/vi/_9YMpuLDnwo/0.jpg",
+      "linkId": "_9YMpuLDnwo",
+      "id": 8
+    },
+    {
+      "name": "Why 2020 will be the best year ever",
+      "artist": "The infographic show",
+      "genre": "Misc",
+      "comment": " ",
+      "thumbnail": "http://img.youtube.com/vi/nfLGQoyA67c/0.jpg",
+      "linkId": "nfLGQoyA67c",
+      "id": 9
     }
   ]
 }

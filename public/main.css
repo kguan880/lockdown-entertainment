@@ -38,6 +38,7 @@ html{
 
 .link{
   width: 200px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
@@ -77,21 +78,21 @@ html{
 
 .container img{
   width: 20vw;
-  border: 1px darkred inset;
+  border: 5px darkred inset;
   border-radius: 50%;
 }
 
 /* CONTAINER PAGE */
 .collection{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
 }
 
 .thumbnail img{
-  border: inset 2px;
+  border: inset 1.5px gray;
   border-radius: 15px;
-  width: 70%;
+  width: 25%;
 }
 
 .sliding{
@@ -109,7 +110,7 @@ html{
 .Comedy, .Music, .Misc{
   background: linear-gradient(brown, black);
   border-radius: 25px;
-  margin: 2%;
+  margin: 1%;
   padding: 1%;
   border: outset 1px gray;
   width: 50%;

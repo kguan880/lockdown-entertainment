@@ -1,16 +1,16 @@
-<div>
-  <a href="/">Back home</a>
+<div class="link animated jackInTheBox delay-3s">
+  <a href="/">Home</a>
 </div>
 <div class="sliding animated fadeInLeft slower">
 <h3>Comedy</h3>
 </div>
 <div class="collection">
-  {{#each comedy}}
-  <table class="{{genre}} animated bounceInLeft slow delay-2s">
+  {{#each video}}
+  <strong class="{{genre}} animated bounceInLeft slow delay-2s">
     <tr>
       <td colspan="2">
         <div class="thumbnail">
-          <img src="{{thumbnail}}" alt=""> 
+          <a href="/container/{{id}}"><img src="{{thumbnail}}" alt=""></a> 
         </div>
       </td>
     </tr>
@@ -22,57 +22,6 @@
       <td><strong>Artist: </strong></td>
       <td>{{artist}}</td>
     </tr>
-  </table>
-  {{/each}}
-</div>
-
-
-<div class="sliding animated fadeInRight slower">
-<h3>Music</h3>
-</div>
-<div class="collection music">
-  {{#each music}}
-  <table class="{{genre}} animated bounceInRight slow delay-2s">
-    <tr>
-      <td colspan="2">
-        <div class="thumbnail">
-          <img src="{{thumbnail}}" alt=""> 
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Name: </strong></td>
-      <td>{{name}}</td>
-    </tr>
-    <tr>
-      <td><strong>Artist: </strong></td>
-      <td>{{artist}}</td>
-    </tr>
-  </table>
-  {{/each}}
-</div>
-
-<div class="sliding animated fadeInLeft slower">
-<h3>Misc</h3>
-</div>
-<div class="collection music">
-  {{#each misc}}
-  <table class="{{genre}} animated bounceInLeft slow delay-2s">
-    <tr>
-      <td colspan="2">
-        <div class="thumbnail">
-          <img src="{{thumbnail}}" alt=""> 
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Name: </strong></td>
-      <td>{{name}}</td>
-    </tr>
-    <tr>
-      <td><strong>Artist: </strong></td>
-      <td>{{artist}}</td>
-    </tr>
-  </table>
-  {{/each}}
+  </strong>
+  {{/each}} 
 </div>
