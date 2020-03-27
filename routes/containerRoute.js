@@ -4,9 +4,6 @@ const fs = require('fs')
 const router = express.Router()
 
 router.get('/', (req,res) => {
-  //consider moving readFile to a function and pass to this function a callback
-  //inside this function try using readfile on 1 file first and once you manage to return the data
-  //try adding the next readfile
   fs.readFile("./data.json", 'utf-8', (err,data)=>{
     const template = './partials/index'
     if(err) throw err;
@@ -43,6 +40,5 @@ fs.readFile("./data.json", 'utf-8', (err,data) =>{
 
   })
 })
-
 
 module.exports = router;
