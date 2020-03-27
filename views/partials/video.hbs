@@ -1,9 +1,21 @@
-<div class="videoDisplay">
-  {{#each video}}
-   <iframe src="https://www.youtube.com/embed/{{linkId}}" frameborder="0"></iframe>
+<div class="link animated jackInTheBox delay-3s">
+  <a href="/container">Home</a>
 </div>
-{{/each}
 
-{{!-- <div class="videoMessage">
-    
-</div> --}}
+<table class="indivDescription">
+  <tr>
+    <td>
+      <div class="videoDisplay">
+        <iframe width="560" height="315" src="{{link}}" frameborder="10" allowfullscreen></iframe>
+      </div>
+    </td>
+    <td>
+      <div class="describe animated fadeIn slower delay-2s">
+        <p>
+          {{comment}}
+        </p> 
+      </div>
+    </td>
+  </tr> 
+</table>
+

@@ -32,18 +32,20 @@ html{
 
 .introduce td h2{
   color: whitesmoke;
-  font-size: 3rem;
+  font-size: 4rem;
   transition: 2s ease-out;
 }
 
 .link{
-  width: 200px;
+  width: 250px;
   text-align: center;
+  font-size: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
-  border: outset 2px gray;
-  background-color: gainsboro;
+  border: outset 2px black;
+  box-shadow: 4px 4px black;
+  background-color: darkred;
   border-radius: 15px;
 }
 
@@ -54,7 +56,8 @@ html{
 
 .link:hover{
   cursor: pointer;
-  background-color: gray;
+  border: inset 2px transparent;
+  background-color:transparent;
 }
 
 .link a:hover{
@@ -68,7 +71,7 @@ html{
   text-align: justify;
   text-align-last: left;
   padding: 25px;
-  width: 50%;
+  width: 70%;
   color: black;
   background: linear-gradient(gray, gainsboro);
   font-size: 1.5rem;
@@ -84,7 +87,8 @@ html{
 
 /* CONTAINER PAGE */
 .collection{
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
 }
@@ -92,7 +96,8 @@ html{
 .thumbnail img{
   border: inset 1.5px gray;
   border-radius: 15px;
-  width: 25%;
+  width: 70%;
+  align-self: center;
 }
 
 .sliding{
@@ -107,7 +112,8 @@ html{
   border-right-style: none;
 }
 
-.Comedy, .Music, .Misc{
+.contain{
+  display: inline-block;
   background: linear-gradient(brown, black);
   border-radius: 25px;
   margin: 1%;
@@ -116,14 +122,20 @@ html{
   width: 50%;
 }
 
-.Comedy tr td:nth-of-type(1), .Music tr td:nth-of-type(1), .Misc tr td:nth-of-type(1){
-  padding: 10px;
+.contain tr td:nth-of-type(1){
+  color: goldenrod;
   font-size: 1.5rem;
-  color: gold;
-} 
+}
 
-.Comedy tr td:nth-of-type(2), .Music tr td:nth-of-type(2), .Misc tr td:nth-of-type(2){
-  padding: 10px;
+.contain tr td:nth-of-type(2){
   color: whitesmoke;
-} 
+  font-size: 1.5rem;
+}
 
+/* EACH VIDEO PAGE */
+
+.indivDescription {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}

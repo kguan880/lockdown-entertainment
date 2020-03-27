@@ -2,11 +2,11 @@
   <a href="/">Home</a>
 </div>
 <div class="sliding animated fadeInLeft slower">
-<h3>Comedy</h3>
+<h3>Our Videos</h3>
 </div>
 <div class="collection">
   {{#each video}}
-  <strong class="{{genre}} animated bounceInLeft slow delay-2s">
+  <table class="contain animated bounceInLeft slow delay-2s">
     <tr>
       <td colspan="2">
         <div class="thumbnail">
@@ -22,6 +22,10 @@
       <td><strong>Artist: </strong></td>
       <td>{{artist}}</td>
     </tr>
-  </strong>
+    <tr>
+      <td><strong>Genre: </strong></td>
+      <td>{{genre}}</td>
+    </tr>
+  </table>
   {{/each}} 
 </div>

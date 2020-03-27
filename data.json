@@ -4,36 +4,36 @@
       "name": "Pawn Shop",
       "artist": "Key & Peele",
       "genre": "Comedy",
-      "comment": " ",
+      "comment": "A pawn shop costumer inquires after supplies for a mysterious and dangerous activity",
       "thumbnail": "http://img.youtube.com/vi/WqBZVlgORbY/0.jpg",
-      "linkId": "WqBZVlgORbY",
+      "link": "https://www.youtube.com/embed/WqBZVlgORbY",
       "id": 1
     },
     {
       "name": "Pets Who Could Use a Vacay",
       "artist": "The Pet Collective",
       "genre": "Comedy",
-      "comment": " ",
+      "comment": "The Pet Collective is home to the top trending clips most entertaining memes and funniest animal videos online",
       "thumbnail": "http://img.youtube.com/vi/whLIYxSiboA/0.jpg",
-      "linkId": "whLIYxSiboA",
+      "link": "https://www.youtube.com/embed/whLIYxSiboA",
       "id": 2
     },
     {
       "name": "Steve Carell: Between Two Ferns with Zach Galifianakis",
       "artist": "Funny or Die",
       "genre": "Comedy",
-      "comment": " ",
+      "comment": "Emmy award–winning Between Two Ferns features host Zach Galifianakis conducting awkward interviews with celebrities like Brad Pitt, President Barack Obama, Natalie Portman, Bradley Cooper, and Will Ferrell.",
       "thumbnail": "http://img.youtube.com/vi/1c-3FQap7iw/0.jpg",
-      "linkId": "1c-3FQap7iw",
+      "link": "https://www.youtube.com/embed/1c-3FQap7iw",
       "id": 3
     },
     {
       "name": "Annhilation of the Ego",
       "artist": "Optimus Gryme",
       "genre": "Music",
-      "comment": " ",
+      "comment": "Bassweight Recordings Optimus Gryme Annhilation aka Charlie B of the Ego Ep The debut release from OPTIMUS GRYME entitled Annihilation of the Ego spans dubstep framework.",
       "thumbnail": "http://img.youtube.com/vi/zKwOM1h5NSE/0.jpg",
-      "linkId": "zKwOM1h5NSE",
+      "link": "https://www.youtube.com/embed/zKwOM1h5NSE",
       "id": 4
     },
     {
@@ -42,7 +42,7 @@
       "genre": "Music",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/gNKFknlCICI/0.jpg",
-      "linkId": "gNKFknlCICI",
+      "link": "https://www.youtube.com/embed/gNKFknlCICI",
       "id": 5
     },
     {
@@ -51,7 +51,7 @@
       "genre": "Music",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/_Uh-f-eEudc/0.jpg",
-      "linkId": "_Uh-f-eEudc",
+      "link": "https://www.youtube.com/embed/_Uh-f-eEudc",
       "id": 6
     },
     {
@@ -60,7 +60,7 @@
       "genre": "Misc",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/PrEdXoDxfE0/0.jpg",
-      "linkId": "PrEdXoDxfE0",
+      "link": "https://www.youtube.com/embed/PrEdXoDxfE0",
       "id": 7
     },
     {
@@ -69,7 +69,7 @@
       "genre": "Misc",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/_9YMpuLDnwo/0.jpg",
-      "linkId": "_9YMpuLDnwo",
+      "link": "https://www.youtube.com/embed/_9YMpuLDnwo",
       "id": 8
     },
     {
@@ -78,7 +78,7 @@
       "genre": "Misc",
       "comment": " ",
       "thumbnail": "http://img.youtube.com/vi/nfLGQoyA67c/0.jpg",
-      "linkId": "nfLGQoyA67c",
+      "link": "https://www.youtube.com/embed/nfLGQoyA67c",
       "id": 9
     }
   ]
