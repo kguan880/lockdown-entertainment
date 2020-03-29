@@ -1,33 +1,24 @@
-<div class="link animated jackInTheBox delay-3s">
+<div class="link animated jackInTheBox delay-2s">
   <a href="/container">Back to videos</a>
 </div>
-
 <table class="indivDescription">
   <tr>
     <td>
       <div class="videoDisplay">
-        <iframe width="560" height="315" src="{{link}}" frameborder="10" allowfullscreen></iframe>
+        <iframe width="750" height="550" src="{{link}}" frameborder="10" allow="autoplay" allowfullscreen></iframe>
+      </div>
+      <div class="link animated pulse infinite">
+        <a href="/container/editVideo/{{id}}">Edit this video</a>
       </div>
     </td>
     <td>
-      <div class="describe animated fadeIn slower delay-2s">
-        <p>
-          {{comment}}
-        </p> 
+      {{>user}}
+      {{>comment}}
+      {{>like}}
     </td>
   </tr> 
   <tr>
-    <td colspan="2">
-      <form action="URL to form script" method="POST">
-        Your name: <br>
-        <input type="text" name="realname"><br>
-        <br>
-
-        Your comments: <br>
-        <textarea name="comments" rows="15" cols="50"></textarea><br><br>
-        <input type="submit" value="Submit">   
-      </form>
-    </td>
+    {{>form}}
   </tr>
 </table>
 

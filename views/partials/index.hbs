@@ -1,12 +1,12 @@
-<div class="link animated jackInTheBox delay-3s">
-  <a href="/">Home</a>
+<div class="addVideo link animated jackInTheBox delay-2s">
+  <a href="/container/addVideo">Share your videos</a>
 </div>
-<div class="sliding animated fadeInLeft slower">
+<div class="sliding animated fadeInLeft slow">
 <h3>Your Selection</h3>
 </div>
 <div class="collection">
   {{#each video}}
-  <table class="contain animated bounceInLeft slow delay-2s">
+  <table class="contain animated bounceInLeft slow delay-1s">
     <tr>
       <td colspan="2">
         <div class="thumbnail">
@@ -25,6 +25,10 @@
     <tr>
       <td><strong>Genre: </strong></td>
       <td>{{genre}}</td>
+    </tr>
+    <tr>
+      <td><strong>Sharer: </strong></td>
+      <td>{{user}}</td>
     </tr>
   </table>
   {{/each}} 

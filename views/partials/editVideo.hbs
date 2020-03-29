@@ -1,0 +1,138 @@
+<div class="link animated pulse infinite">
+  <a href="/container">Back to videos</a>
+</div>
+<div class="instruction animated fadeIn slower">
+  <fieldset>
+    <legend class="animate-me">INSTRUCTION</legend>
+    <table>
+      <tr>
+        <td colspan="2">
+          <h3>1. FOR YOUTUBE VIDEO</h3>
+        </td>
+      </tr>
+      <tr>
+        <td>Embed: </td>
+        <td><b>https://www.youtube.com/embed/~Here is 11 letters of video ID~</b></td>
+      </tr>
+      <tr>
+        <td>Thumbnail: </td>
+        <td><b>http://img.youtube.com/vi/~Here is 11 letters of video ID~/0.jpg</b> OR your prefer picture URL</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <h3>2. FOR DAILYMOTION VIDEO</h3>
+        </td>
+      </tr>
+      <tr>
+        <td>Embed: </td>
+        <td><b>https://www.dailymotion.com/embed/video/~Here is video ID~</b></td>
+      </tr>
+      <tr>
+        <td>Thumbnail: </td>
+        <td>You can choose any thumbnail you like as long as URL is a picture</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <h3>3. OTHER SOURCE</h3>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>
+            You can add any other video by using their embed link as long as that website support
+            embed their video.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <h3>4. "NO ADULT ENTERTAINMER PLEASE"</h3>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>
+            I know some 'Unappropriate video' website support embed their video.
+            However, please do not add anything like that here. Thank a lot :D
+          </p>
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+</div>
+<div class="addVideoForm animated fadeIn slow">
+  <td class="form">
+    <fieldset class="form-layout">
+      <legend>Edit this video</legend>
+        <form class="form-setting" action="/container/editVideo/{{id}}" method="POST">
+          <table>
+            <tr>
+              <td>
+                <label for="name">Name: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="Name of the video" name="name" value="{{name}}" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="user">Your name: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="Your name" name="user" value="{{user}}" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="userImage">Your avatar: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="Your avatar picture" name="userImage" value="" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="artist">Artist: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="Who is the artist" name="artist" value="{{artist}}" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="genre">Genre: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="Specific genre" name="genre" value="{{genre}}" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="detail">Detail: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="A bit about video" name="detail" value="{{detail}}" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="thumbnail">Thumbnail: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="Thumbnail pic of the video" name="thumbnail" value="{{thumbnail}}" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="link">Link: </label>
+              </td>
+              <td>
+                <input type="text" size="50px" placeholder="Video link" name="link" value="{{link}}" required>
+              </td>
+            </tr>
+          </table>
+          <button class="animate-me" type="submit">Submit</button>
+        </form>
+    </fieldset>
+  </td>
+</div>

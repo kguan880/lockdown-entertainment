@@ -37,6 +37,7 @@ html{
 }
 
 .link{
+  position: sticky;
   width: 250px;
   text-align: center;
   font-size: 1.5rem;
@@ -64,7 +65,7 @@ html{
   color: whitesmoke;
 }
 
-.describe{
+.describe, .comment{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
@@ -88,16 +89,18 @@ html{
 /* CONTAINER PAGE */
 .collection{
   display: inline-flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
-  text-align: center;
+  flex-wrap: wrap;
+}
+
+.collection>*{
+  flex: 1 1; 
 }
 
 .thumbnail img{
   border: inset 1.5px gray;
   border-radius: 15px;
-  width: 70%;
+  width: 100%;
   align-self: center;
 }
 
@@ -114,34 +117,261 @@ html{
 }
 
 .contain{
-  display: inline-block;
+  display: inline-flex;
   background: linear-gradient(brown, black);
   border-radius: 25px;
-  margin: 1%;
-  padding: 1%;
+  margin: 3%;
+  padding: 3%;
   border: outset 1px gray;
-  width: 50%;
+  width: 100%;
 }
 
 .contain tr td:nth-of-type(1){
   color: goldenrod;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .contain tr td:nth-of-type(2){
   color: whitesmoke;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.addVideo{
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 5px;
+  top: 0.25vw;
 }
 
 /* EACH VIDEO PAGE */
 
 .indivDescription {
   display: flex;
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
-.commentBox td{
-  border: black 1px outset;
+.indivDescription td:nth-of-type(1){
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.videoDisplay{
+  text-align: center;
+}
+
+.videoDisplay iframe{
+  border: inset 2px gray;
   border-radius: 25px;
+}
+
+.detail img{
+  border: outset 2px darkred;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.detail tr td:nth-of-type(1){
+  display: flex;
+  color: darkred;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.detail tr td:nth-of-type(2){
+  display: flex;
+  color: black;
+  font-size: 1rem;
+}
+
+.like{
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.like img{
+  width: 20%;
+}
+
+.like img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.likeClick{
+  width: 22%;
+}
+
+.comment strong{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.comment-container{
+  border: inset 2px gray;
+  border-radius: 8px;
+  background-color: rgb(180, 0, 0);
+  color: aliceblue;
+}
+
+.comment-container tr td{
+  display: flex;
+}
+
+.comment-container td:nth-of-type(1){
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-style: oblique;
+  text-shadow: 2px 2px black;
+}
+
+.comment-container td:nth-of-type(2){
+  margin-left: 5px;
+  font-size: 1.2rem;
+}
+
+/* Change the color of background */
+
+.animate-me {
+  -webkit-animation: bgcolorchange 6s infinite; /* Chrome, Safari, Opera */ 
+  animation: 6s infinite bgcolorchange;
+}
+@keyframes bgcolorchange {
+  0% {
+    background-color: rgb(180, 0, 0);
+  }
+  25% {
+    background-color: goldenrod;
+  }
+  50% {
+    background-color: rgb(180, 0, 0);
+  }
+  75% {
+    background-color: goldenrod;
+  }
+  100% {
+    background-color: rgb(180, 0, 0);
+  }
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bgcolorchange {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      75%  {background: green;}
+      100% {background: blue;}
+}
+
+/* END HERE */
+
+.likeNumber{
+  margin-left: 25px;
+  font-size: 25px;
+  color: white;
+}
+
+/* FORM LAYOUT */
+
+.form{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.addVideoForm{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.form-layout{
+  border: 1px outset gray;
+  background-color: darkred;
+  border-radius: 25px;
+  width: 50%;
+  padding: 5%;
+}
+
+.form-layout legend{
+  text-align: center;
+  border: outset 2px gray;
+  box-shadow: 1px 1px black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: goldenrod;
+  color: antiquewhite;
+  font-size: 1.2rem;
+}
+
+.form-setting table tr td{
+  padding: 5px;
+}
+
+.form-setting label{
+  color: goldenrod;
+  font-style: oblique;
+  font-size: 1.2rem;
+}
+
+.form-setting input{
+  border: inset 1px gray;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.form-setting button{
+  font-size: 1rem;  
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  border: gray outset 1px;
+  border-radius: 10px;
+}
+
+.form-setting button:hover{
+  background: gray;
+}
+
+/* ADD & EDIT VIDEO INSTRUCTION */
+
+.instruction{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+.instruction fieldset legend{
+  text-align: center;
+  border: outset 1px gray;
+  border-radius: 15px;
+  padding: 1%;
+  box-shadow: black 2px 2px;
+  font-size: 1.5rem;
+  font-style: oblique;
+  color: aliceblue;
+}
+
+.instruction fieldset{
+  width: 70%;
+  border-radius: 15px;
+  padding: 2%;
+  background: linear-gradient(gray, gainsboro);
+}
+
+.instruction fieldset table{
+  width: 100%;
+}
+
+.instruction h3{
+  font-size: 1.5rem;
+  color: darkred;
+}
+
+.instruction{
+  font-size: 110%;
 }
